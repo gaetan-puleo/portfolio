@@ -5,7 +5,7 @@ import {useFrame} from '@react-three/fiber';
 
 const Group = forwardRef((props,ref) => {
 	useFrame(()  => { 
-		ref.current.rotation.y -= 0.01
+		ref.current.rotation.y -= 0.004
 	})
 
 	return <group ref={ref}>

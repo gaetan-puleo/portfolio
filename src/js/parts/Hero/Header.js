@@ -10,6 +10,7 @@ export default function Header () {
 			<span>A {' '} 
 			<Typing />
 			<span className={styles.cursor} /> Developer</span>
+
 		</header>
 	)
 }
