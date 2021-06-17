@@ -1,0 +1,58 @@
+.content {
+	padding-top: 50px;
+	padding-left: 50px;
+	position: relative;
+	z-index: 1;
+	font-size: 30px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.cursor {
+	display: inline-block;
+	background-color: #fff;
+	margin-left: 4px; 
+	width: 8px;
+	height: 4px;
+	animation: blink 1.5s infinite;
+}
+
+
+@keyframes blink {
+	0% {
+		opacity: 0;
+	}
+
+	25% {
+		opacity: 0;
+	}
+
+	25% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	75% {
+		opacity: 0;
+	}
+
+	75% {
+		opacity: 1;
+	}
+
+
+	100% {
+		opacity: 1;
+	}
+
+
+	100% {
+		opacity: 0;
+	}
+}

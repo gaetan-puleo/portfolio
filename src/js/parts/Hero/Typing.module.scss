@@ -1,0 +1,16 @@
+.typing {
+	position: relative;
+	display: block;
+	font-size: 24px;
+	animation: type 3s steps(23);
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.techno {
+	white-space: nowrap;
+	vertical-align: text-bottom;
+	display: inline-block;
+	overflow: hidden;
+  font-family: 'Roboto Mono', monospace;
+}

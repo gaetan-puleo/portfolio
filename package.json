@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "thewildpenguin <gaetan.puleo.dev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-image": "2.0.0-beta.3.1",
+    "@parcel/transformer-sass": "2.0.0-beta.3.1",
+    "parcel": "^2.0.0-beta.3.1",
+    "postcss": "^8.2.1"
+  },
+  "scripts": {
+    "start": "parcel serve src/index.html"
+  },
+  "dependencies": {
+    "@react-three/drei": "^6.1.2",
+    "@react-three/fiber": "^7.0.1",
+    "@react-three/postprocessing": "^2.0.4-alpha.2",
+    "@use-gesture/react": "^10.0.0-beta.11",
+    "postprocessing": "^6.22.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rooks": "^5.0.2",
+    "three": "^0.129.0"
+  },
+  "alias": {
+    "postprocessing": "./node_modules/postprocessing/build/postprocessing.esm.js"
+  }
+}
